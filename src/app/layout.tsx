@@ -3,6 +3,7 @@ import { Kanit, DM_Mono } from "next/font/google"
 import "./globals.css"
 import { resumeData } from "@/data"
 
+
 const kanit = Kanit({
   weight: ["300", "400", "500", "700"],
   subsets: ["latin", "thai"],
@@ -16,8 +17,9 @@ const dmMono = DM_Mono({
 })
 
 export const metadata: Metadata = {
-  title: `Kritteera | Resume`,
+  title: `nalanoy.dev`,
   description: resumeData.bio,
+  icons: { icon: "/favicon.ico" },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
