@@ -78,7 +78,7 @@ export default function Home() {
             </div>
           </div>
           <div className="avatar">
-            <Image src="/profile.png" alt={name} width={500} height={500} style={{ objectFit: "cover" , objectPosition: "center top" }} />
+            <Image src="/profile.png" alt={name} width={500} height={500} style={{ objectFit: "cover" , objectPosition: "center 30%" }} />
           </div>
         </div>
       </header>
