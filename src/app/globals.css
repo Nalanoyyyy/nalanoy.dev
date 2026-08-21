@@ -208,12 +208,38 @@ footer p { font-size: 12px; font-family: var(--font-dm-mono), monospace; color: 
 .stagger.visible > *:nth-child(6) { opacity:1; transform:none; transition-delay:0.40s; }
 
 /* ─── RESPONSIVE ─────────────────────────────────────────── */
+/* มือถือ */
 @media (max-width: 600px) {
-  .hero .container { grid-template-columns: 1fr; }
-  .avatar { display: none; }
+  .container { padding: 0 1.25rem; }
+  .nav-links { display: none; }
+  .hero { padding: 4rem 0 3rem; }
+  .hero .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .avatar {
+    display: flex;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 1.5rem;
+    order: -1;
+  }
+  .hero-title { font-size: 2rem; }
   .exp-item, .edu-item { grid-template-columns: 1fr; gap: 0.25rem; }
   .exp-period, .edu-year { padding-top: 0; }
   footer .container { flex-direction: column; gap: 0.5rem; text-align: center; }
+}
+/* แท็บเล็ต / iPad */
+@media (min-width: 601px) and (max-width: 900px) {
+  .container { padding: 0 1.5rem; }
+  .nav-links { gap: 1.25rem; }
+  .hero .container { gap: 1.5rem; }
+  .avatar { width: 220px; height: 220px; }
+  .hero-title { font-size: clamp(1.8rem, 4vw, 2.8rem); }
+  .skills-grid { grid-template-columns: repeat(2, 1fr); }
+  .projects-grid { grid-template-columns: repeat(2, 1fr); }
+  .exp-item { grid-template-columns: 110px 1fr; }
 }
 @media (prefers-reduced-motion: reduce) {
   .fade, .stagger > * { opacity: 1; transform: none; transition: none; }
