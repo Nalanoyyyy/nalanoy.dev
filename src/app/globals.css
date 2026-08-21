@@ -220,8 +220,8 @@ footer p { font-size: 12px; font-family: var(--font-dm-mono), monospace; color: 
   }
   .avatar {
     display: flex;
-    width: 120px;
-    height: 120px;
+    width: 300px;
+    height: 300px;
     margin-bottom: 1.5rem;
     order: -1;
   }
