@@ -92,7 +92,7 @@ a.nav-name:hover { color: var(--accent); }
 .avatar {
   width: 350px;
   height: 350px;
-  border-radius: 50%;
+  border-radius: 16%;
   background: var(--surface);
   border: 1px solid var(--border);
   display: flex;
@@ -222,6 +222,7 @@ footer p { font-size: 12px; font-family: var(--font-dm-mono), monospace; color: 
     display: flex;
     width: 350px;
     height: 350px;
+     border-radius: 16px;
     margin-bottom: 1.5rem;
     order: -1;
   }
