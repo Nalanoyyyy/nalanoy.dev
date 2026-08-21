@@ -6,7 +6,7 @@ export const resumeData = {
   // ── ข้อมูลส่วนตัว ─────────────────────────────────────────
   name: "Kritteera Chaloemdit",
   role: "Aspiring Developer / Class of 2026",
-  bio: "Detail-oriented Aspiring Frontend Developer with a keen eye for interactive design. Eager to leverage my skills in Next.js, React, and Tailwind CSS to bring conceptual layouts to life and build highly performant web applications.",
+  bio: "Detail-oriented aspiring Frontend Developer passionate about interactive design. Ready to turn concepts into beautiful, user-friendly, and high-performance web experiences using Next.js, React, and Tailwind CSS.",
   about: "I am an aspiring Frontend Developer with a keen eye for interactive design. My journey in web development is fueled by the desire to build intuitive, user-centric applications. Whether I'm crafting responsive UI components or writing clean, scalable code with Next.js, React, TypeScript, and Vite, I focus on delivering seamless experiences. I believe in combining clean, minimalist layouts with creative visual storytelling to make every web project both functional and memorable.",
   location: "Bangkok, Thailand",
   avatar: "/profile.png",  // ← ใส่รูปตัวเองใน /public/photo.jpg แล้วเอา comment ออก
